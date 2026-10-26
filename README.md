@@ -1,24 +1,10 @@
 # Experiment 1:  Image-Handling-and-pixel-Transformation-Using-OpenCV-Asssignment
 
-
 ## Name: Rithika R
 ## Register Number: 212224240136
-
-
 ---
-
 ## AIM
-
 To perform image handling and pixel transformations using Python and OpenCV, including reading and displaying images, drawing shapes, adding text, color space conversion, pixel manipulation, image resizing, cropping, flipping, and saving the modified image.
-
-## SOFTWARE REQUIRED
-
-- Python
-- OpenCV
-- Matplotlib
-- Jupyter Notebook
-- Anaconda (optional)
-
 ## INSTALLATION
 
 Install the required libraries using the following command:
@@ -26,7 +12,6 @@ Install the required libraries using the following command:
 ```bash
 pip install opencv-contrib-python-headless matplotlib
 ```
-
 ## ALGORITHM
 
 ### Step 1: Read and Display an Image
@@ -408,10 +393,6 @@ plt.axis("off")
 
 
 <img width="267" height="456" alt="image" src="https://github.com/user-attachments/assets/47727fc4-b970-441e-bbb2-8bb6ad369d69" />
-
-
-
-
 
 ## RESULT
 
