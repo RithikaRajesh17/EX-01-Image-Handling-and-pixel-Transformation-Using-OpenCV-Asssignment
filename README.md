@@ -176,7 +176,7 @@ image = cv2.imread('riki.jpeg')
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # Add text to the image
-text_img = cv2.putText(img_rgb, "OpenCV Drawing", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 10)  ## cv2.putText(image, text, position, font, font_scale, color, thickness)
+text_img = cv2.putText(img_rgb, "hi hello", (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 1, (255, 255, 255), 10)  ## cv2.putText(image, text, position, font, font_scale, color, thickness)
 
 
 # Display the image
@@ -327,83 +327,89 @@ plt.axis("off")
 #1. Original image displayed using OpenCV and Matplotlib.
 
 
-<img width="375" height="505" alt="image" src="https://github.com/user-attachments/assets/a72af43c-ef5b-460f-b308-987ca60ce3d6" />
+<img width="280" height="460" alt="image" src="https://github.com/user-attachments/assets/089d3187-ee1f-4a70-ae0e-8ce87e3fb041" />
+
 
 
 
 #2. Image with a line drawn from the top-left to the bottom-right.
 
 
-<img width="382" height="506" alt="image" src="https://github.com/user-attachments/assets/1095c5b8-75c9-4ed2-96f4-ff192dea6eef" />
+<img width="277" height="461" alt="image" src="https://github.com/user-attachments/assets/6d4f7555-f8c5-437e-9f5e-904a873a4db5" />
+
 
 
 #3. Image with a circle .
 
 
-<img width="383" height="512" alt="image" src="https://github.com/user-attachments/assets/14990857-bfcd-41b3-8868-a82cc0100ed4" />
-
+<img width="275" height="461" alt="image" src="https://github.com/user-attachments/assets/9caf3aaf-5d38-4c0b-b0fa-3b4e8bc23d23" />
 
 #4. Image with a rectangle around its boundary.
 
 
-<img width="382" height="511" alt="image" src="https://github.com/user-attachments/assets/33bf2256-cff4-4b5e-8196-a6c393fb883e" />
+<img width="281" height="457" alt="image" src="https://github.com/user-attachments/assets/f385fb2d-51ee-4f05-8237-6853cd752f79" />
+
+#5. Image with the text "hi hello".
 
 
-#5. Image with the text "OpenCV Drawing".
-
-
-<img width="387" height="505" alt="image" src="https://github.com/user-attachments/assets/112a35e9-4d73-485b-a6e3-16129843f76f" />
-
+<img width="277" height="460" alt="image" src="https://github.com/user-attachments/assets/70373fed-f0a2-4b3c-9010-01239f592fcf" />
 
 #6. HSV, grayscale, and YCrCb color space conversions.
 
 #HSV conversion
 
-<img width="380" height="507" alt="image" src="https://github.com/user-attachments/assets/c624a639-dcad-4e4c-aee1-e30d07b0b92c" />
+<img width="272" height="460" alt="image" src="https://github.com/user-attachments/assets/a51fdee6-c1ae-4497-aa26-ffd2db1d56aa" />
+
 
 #grayscale conversion
 
-<img width="368" height="501" alt="image" src="https://github.com/user-attachments/assets/8f15834c-109b-4e81-a176-f36c83aa8437" />
+<img width="277" height="462" alt="image" src="https://github.com/user-attachments/assets/c5ee6cc9-fd09-4807-a141-7a331dff82f3" />
+
 
 #YCrCb conversion
 
-<img width="380" height="506" alt="image" src="https://github.com/user-attachments/assets/df89b3f0-2522-4a4a-b4f0-33bb59e17480" />
-
+<img width="273" height="458" alt="image" src="https://github.com/user-attachments/assets/638f08e1-ef3b-4206-9bf1-333ac3ad9a44" />
 
 #7. Image converted from HSV back to RGB.
 
 
-<img width="372" height="500" alt="image" src="https://github.com/user-attachments/assets/64622476-d739-4570-b93b-10fd9a807165" />
+<img width="271" height="460" alt="image" src="https://github.com/user-attachments/assets/c7d487f4-6326-4102-bfb7-6eda4bc24c97" />
+
+
 
 
 #8. Pixel value displayed and a white region added to the image.
 
 
-<img width="385" height="510" alt="image" src="https://github.com/user-attachments/assets/97071e67-df5d-440e-bbf2-ead66c54f4ba" />
-
+<img width="275" height="453" alt="image" src="https://github.com/user-attachments/assets/73647be7-037e-4eab-add4-f6eb04cd8d95" />
+>
 
 #9. Image resized to half its original dimensions.
 
 
-<img width="597" height="507" alt="image" src="https://github.com/user-attachments/assets/0cd1c814-a87d-4426-8774-a118b94fde26" />
-
+<img width="585" height="457" alt="image" src="https://github.com/user-attachments/assets/6c5db128-62cb-4444-a775-533d21764403" />
 
 #10. Cropped region of interest displayed.
 
 
-<img width="478" height="511" alt="image" src="https://github.com/user-attachments/assets/2ef5ca4b-fc55-4e90-9d05-13fbe74f70ae" />
+<img width="455" height="456" alt="image" src="https://github.com/user-attachments/assets/8541f907-1618-4d1e-b01a-115fefaa72de" />
+
+
 
 
 #11. Horizontally flipped image displayed.
 
 
-<img width="387" height="512" alt="image" src="https://github.com/user-attachments/assets/705940e8-69c1-4da2-9c25-495708f09057" />
+<img width="273" height="453" alt="image" src="https://github.com/user-attachments/assets/9543b5de-89b8-4617-9f8b-9ca56c6661d4" />
 
 
 #12. Vertically flipped image displayed.
 
 
-<img width="386" height="506" alt="image" src="https://github.com/user-attachments/assets/5104a539-6fa8-42a1-a513-48db6219223d" />
+
+<img width="267" height="456" alt="image" src="https://github.com/user-attachments/assets/47727fc4-b970-441e-bbb2-8bb6ad369d69" />
+
+
 
 
 
@@ -412,3 +418,4 @@ plt.axis("off")
 Thus, image handling and pixel transformations were performed using Python, OpenCV, and Matplotlib. The experiment demonstrated image reading, shape drawing, text insertion, color space conversion, pixel manipulation, image resizing, cropping, flipping, and saving.
 
 ---
+
